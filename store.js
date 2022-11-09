@@ -10,9 +10,6 @@ var store = new Map ([
 
 
 // Testing 
-console.log(store);
-console.log(store.get("album1"))
-
 function addCart(index) {
     if (index === 0) { console.log(store.get("album1")) }
     else if (index === 1) { console.log(store.get("album2")) }
@@ -20,6 +17,4 @@ function addCart(index) {
     else if (index === 3) { console.log(store.get("album2")) }
     else if (index === 4) { console.log(store.get("tshirt")) }
     else if (index === 5) { console.log(store.get("coffCup")) }
-
-    console.log("Yousa Bitch")
 }
